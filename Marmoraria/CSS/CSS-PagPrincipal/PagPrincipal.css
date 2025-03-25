@@ -1,26 +1,28 @@
-body, html {
+body{
     margin: 0;
     padding: 0;
-
+    
 }
 
 .fundo{
     height: 100vh;
     width: 100%;
     position: relative;
-    
+    background-image: url("../../IMG/Pagprincipal/marmorefundo.jpg");
 }
-.fundo img{
+/* .fundo img{
     height: 100vh;
     width: 100%;
-    object-fit: cover; /* Faz a imagem cobrir toda a tela sem distorcer */
+    object-fit: cover;
     animation-name: fundo;
     animation-duration: 3s;
-}
+} */
 @keyframes fundo{
     from {height: 0vh;}
     to {height: 100vh;}
 }
+
+
 
 
 .container {
